@@ -1,0 +1,48 @@
+body {
+    background-color: #D5E1EF;
+}
+
+.container {
+    text-align: center;
+}
+
+.wrapper {
+    background-color: #ffff;
+    position: absolute;
+    left: 556px;
+    top: 146px;
+    border: 1px solid #ffff;;
+    border-radius: 10px;
+    height: 400px;
+    width: 250px;
+}
+
+p {
+    margin: 10px;
+}
+
+.first {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333F57;
+}
+
+.second {
+    font-size: .75rem;
+    color: #94989e;
+}
+
+img {
+    width: 90%;
+    border-radius: 10px;
+    margin: 7px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 450px) {
+    .wrapper {
+        position: absolute;
+        left: 153px;
+    }
+} 
