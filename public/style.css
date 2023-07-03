@@ -1,0 +1,246 @@
+body {
+    background-color: #36384D;
+}
+.home-container {
+    background-color: #ffffff;
+    position: absolute;
+    left: 230px;
+    top: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    height: 585px;
+    width: 900px;
+}
+
+h1 {
+    position: relative;
+    left: 65px;
+    font-size: 3rem;
+    color: #232646;
+}
+
+p, li, label {
+    font-size: .8rem;
+}
+
+.first-container {
+    position: inherit;
+    top: 60px;
+    width: 410px;
+}
+
+.first-container-body {
+    position: inherit;
+    top: 110px;
+    width: 350px;
+    left: 65px;
+}
+
+li {
+    display: inline-block;
+}
+
+ul li {
+    position: relative;
+    left: -40px;
+}
+
+.fa {
+    width: 1.5rem;
+    color: #FF6155;
+}
+
+.second-container {
+    position: absolute;
+    left: 500px;
+    top: 0;
+    margin: 10px;
+}
+
+label {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+input {
+    padding: 13px;
+    width: 300px;
+    border: 1px solid #c7b2b2;
+    border-radius: 5px;
+    /* background-color: #fadada; */
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.form-container {
+    margin-top: 30px;
+}
+
+.form-container input {
+    margin-top: 8px;
+}
+
+.form-container span {
+    white-space: nowrap;
+    font-weight: bold;
+    color: #ff0000;
+    font-size: 12px;
+    margin: 120px;
+}
+
+button {
+    padding: 13px;
+    width: 330px;
+    border: 1px solid #232742;
+    border-radius: 5px;
+    background-color: #232742;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #FF693D;
+    border-color: #ffffff;
+    background: linear-gradient(to right, #ff5d78, #ff5e00);
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* SUCCESS CSS */
+
+.success-container {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    height: 350px;
+    width: 390px;
+    position: absolute;
+    left: 530px;
+    top: 146px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #232646;
+    line-height: 40px;
+}
+
+.success-body {
+    position: relative;
+    margin: 40px;
+    top: -15px;
+    left: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.success-body h2 {
+    position: inherit;
+    top: -15px;
+}
+
+.success-body p {
+    position: inherit;
+    top: -25px;
+    color: #000000;
+}
+
+.success-button {
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.success-button button {
+    width: 300px;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    h2 {
+    margin-left: 20px;
+    margin-top: 40px;
+    color: #232646;
+    }
+
+    .second-mobile-container p {
+        font-size: 1.1rem;
+        margin: 8px;
+        margin-left: 20px;
+    }
+
+    .second-mobile-container li {
+        margin-left: 20px;
+        font-size: 1.1rem;
+        margin: 3px;
+    }
+
+    .fa {
+        width: 1.6rem;
+        margin: 5px;
+    }
+
+    label {
+        font-size: .98rem;
+        margin-left: 20px;
+    }
+
+    input {
+        font-size: .95rem;
+        margin-left: 20px;
+        padding: 21px;
+        width: 330px;
+    }
+
+    button {
+        font-size: .98rem;
+        margin-left: 20px;
+        padding: 21px;
+        width: 375px;
+    }
+
+
+
+    /* MOBILE SUCCESS CSS */
+
+    .mobile-success-container {
+        margin-left: 20px;
+    }
+
+    .mobile-success-body {
+        margin-top: 100px;
+    }
+
+    .mobile-success-body h2 {
+        margin-left: 5px;
+        font-size: 2.7rem;
+    }
+
+    .mobile-success-body p {
+        font-size: 1rem;
+    }
+
+    .mobile-success-button button {
+        margin-top: 150px;
+        margin-left: 0;
+        border-radius: 10px;
+        width: 360px;
+    }
+
+}
